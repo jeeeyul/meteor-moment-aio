@@ -11,5 +11,5 @@ Package.on_use(function(api, where) {
 
 	api.add_files('lib/moment-with-langs.min.js');
 	api.add_files('lib/korean-bug-fix.js');
-	api.add_files('export-moment.js');
+	api.add_files('lib/export-moment.js');
 });
