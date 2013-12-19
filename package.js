@@ -7,6 +7,7 @@ Package.on_use(function(api, where) {
 		api.export("moment");
 	}
 
-	api.add_files('lib/moment-with-langs.min.js');
+	//api.add_files('lib/moment-with-langs.min.js');
+	api.add_files('lib/moment-with-langs.js');
 	api.add_files('export-moment.js');
 });
