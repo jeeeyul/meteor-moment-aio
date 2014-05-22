@@ -11,12 +11,9 @@ mrt add moment-with-langs
 
 ## Development
 
-Checkout:
+Checkout & Test:
 ```bash
-$ git clone --recursive git@github.com:jeeeyul/meteor-moment-with-langs.git momment-with-langs
+git clone --recursive git@github.com:jeeeyul/meteor-moment-with-langs.git moment-with-langs
+mrt test-packages moment-with-langs
 ```
 
-Test:
-```bash
-$ mrt test-packages ./
-```
