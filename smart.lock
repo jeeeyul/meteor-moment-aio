@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "moment-with-langs": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "moment-with-langs": {
+        "path": "."
+      }
+    }
+  }
+}
