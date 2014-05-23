@@ -4,6 +4,6 @@
   "homepage": "https://github.com/jeeeyul/meteor-moment-with-langs",
   "author": "Jeeeyul <jeeeyul@gmail.com>",
   "version": "2.6.0",
-  "git": "https://github.com/jeeeyul/meteor-moment-with-langs.git",
+  "git": "git://github.com/jeeeyul/meteor-moment-with-langs.git",
   "packages": {}
 }
