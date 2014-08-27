@@ -13,7 +13,7 @@ meteor add jeeeyul:moment-with-langs
 
 Checkout & Test:
 ```bash
-$ git clone --recursive git://github.com/jeeeyul/moment-with-langs.git jeeeyul:moment-with-langs
+$ git clone --recursive git@github.com:jeeeyul/moment-with-langs.git jeeeyul:moment-with-langs
 $ cd jeeeyul\:moment-with-langs
 $ meteor test-packages ./
 ```
