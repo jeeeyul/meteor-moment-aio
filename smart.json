@@ -1,9 +1,0 @@
-{
-  "name": "moment-with-langs",
-  "description": "MomentJS with languages support for meteor",
-  "homepage": "https://github.com/jeeeyul/meteor-moment-with-langs",
-  "author": "Jeeeyul <jeeeyul@gmail.com>",
-  "version": "2.6.0",
-  "git": "git://github.com/jeeeyul/meteor-moment-with-langs.git",
-  "packages": {}
-}

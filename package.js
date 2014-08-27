@@ -1,9 +1,11 @@
 Package.describe({
-	summary : "Moment with languages"
+	summary : "Moment with languages",
+	git : "https://github.com/jeeeyul/moment-with-langs.git",
+	version : "2.6.0"
 });
 
 Package.on_use(function(api, where) {
-	api.use("underscore");
+	api.use("underscore@1.0.0");
 	
 	if (api.export) {
 		api.export("moment");
