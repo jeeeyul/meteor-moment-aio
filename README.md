@@ -6,7 +6,7 @@ Supports momentjs with i18N to meteor
 Installation
 
 ```bash
-meteor add jeeeyul:moment-with-langs
+$ meteor add jeeeyul:moment-with-langs
 ```
 
 ## Development
