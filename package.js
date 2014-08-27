@@ -1,7 +1,7 @@
 Package.describe({
 	summary : "Moment with languages",
 	git : "https://github.com/jeeeyul/moment-with-langs.git",
-	version : "2.6.0"
+	version : "2.8.2"
 });
 
 Package.on_use(function(api, where) {
