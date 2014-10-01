@@ -1,7 +1,7 @@
 Package.describe({
-	summary : "Moment with languages",
-	git : "https://github.com/jeeeyul/moment-with-langs.git",
-	version : "2.8.2"
+	summary : "Moment with locales",
+	git : "https://github.com/albinekb/moment-with-locales",
+	version : "2.8.3"
 });
 
 Package.on_use(function(api, where) {
@@ -16,6 +16,6 @@ Package.on_use(function(api, where) {
 });
 
 Package.on_test(function(api){
-	api.use(["jeeeyul:moment-with-langs", "tinytest"], ["client", "server"]);
+	api.use(["albinekb:moment-with-langs", "tinytest"], ["client", "server"]);
 	api.add_files("test/basics.js", ["client", "server"]);
 });

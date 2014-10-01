@@ -1,4 +1,4 @@
-## meteor-moment-with-langs
+## meteor-moment-with-locales
 
 
 Supports momentjs with i18N to meteor
@@ -6,15 +6,15 @@ Supports momentjs with i18N to meteor
 Installation
 
 ```bash
-$ meteor add jeeeyul:moment-with-langs
+$ meteor add albinekb:moment-with-locales
 ```
 
 ## Development
 
 Checkout & Test:
 ```bash
-$ git clone --recursive git@github.com:jeeeyul/moment-with-langs.git jeeeyul:moment-with-langs
-$ cd jeeeyul\:moment-with-langs
+$ git clone --recursive git@github.com:albinekb/moment-with-locales.git albinekb:moment-with-locales
+$ cd albinekb\:moment-with-locales
 $ meteor test-packages ./
 ```
 
