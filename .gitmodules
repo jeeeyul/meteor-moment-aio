@@ -1,4 +1,4 @@
 [submodule "lib/moment"]
 	path = lib/moment
 	url = git://github.com/moment/moment.git
-	tag = 2.8.2
+	tag = 2.10.6

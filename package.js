@@ -1,12 +1,12 @@
 Package.describe({
 	summary : "Moment with locales",
 	git : "https://github.com/albinekb/moment-with-locales",
-	version : "2.8.3"
+	version : "2.10.6"
 });
 
 Package.on_use(function(api, where) {
 	api.use("underscore@1.0.0");
-	
+
 	if (api.export) {
 		api.export("moment");
 	}
@@ -16,6 +16,6 @@ Package.on_use(function(api, where) {
 });
 
 Package.on_test(function(api){
-	api.use(["albinekb:moment-with-langs", "tinytest"], ["client", "server"]);
+	api.use(["jeeeyul:moment-with-langs", "tinytest"], ["client", "server"]);
 	api.add_files("test/basics.js", ["client", "server"]);
 });
