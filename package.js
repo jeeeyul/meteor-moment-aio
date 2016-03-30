@@ -1,7 +1,7 @@
 Package.describe({
 	summary : "Moment with locales",
 	git : "https://github.com/albinekb/moment-with-locales",
-	version : "2.10.6"
+	version : "2.12.0"
 });
 
 Package.on_use(function(api, where) {
@@ -12,6 +12,7 @@ Package.on_use(function(api, where) {
 	}
 
 	api.add_files('lib/moment/min/moment-with-locales.min.js');
+	api.add_files('lib/moment-timezone/builds/moment-timezone-data.ming.js');
 	api.add_files('lib/export-moment.js');
 });
 
