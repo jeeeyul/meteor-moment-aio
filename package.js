@@ -12,7 +12,7 @@ Package.on_use(function(api, where) {
 	}
 
 	api.add_files('lib/moment/min/moment-with-locales.min.js');
-	api.add_files('lib/moment-timezone/builds/moment-timezone-data.ming.js');
+	api.add_files('lib/moment-timezone/builds/moment-timezone-data.min.js');
 	api.add_files('lib/export-moment.js');
 });
 
