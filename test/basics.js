@@ -13,3 +13,11 @@ Tinytest.add("Parsing Korean", function(test){
 		"AM/PM parse"
 	);
 });
+
+Tinytest.add("Timezone Test", function(test){
+	test.equal(
+		moment().locale("ko").tz("Asia/Seoul").format("z"),
+		"KST",
+		"Timezone format test"
+	);
+});

@@ -17,6 +17,6 @@ Package.on_use(function(api, where) {
 });
 
 Package.on_test(function(api){
-	api.use(["jeeeyul:moment-with-langs", "tinytest"], ["client", "server"]);
+	api.use(["jeeeyul:moment-aio", "tinytest"], ["client", "server"]);
 	api.add_files("test/basics.js", ["client", "server"]);
 });
