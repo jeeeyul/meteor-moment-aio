@@ -1,6 +1,6 @@
 Package.describe({
-	summary : "Moment with locales",
-	git : "https://github.com/albinekb/moment-with-locales",
+	summary : "Moment + Timezone with all locales and timezone data.",
+	git : "https://github.com/jeeeyul/meteor-moment-aio.git",
 	version : "2.12.1"
 });
 
