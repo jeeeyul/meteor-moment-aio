@@ -1,12 +1,11 @@
 ## All-in-One package for moment.js
 
-`jeeeyul:moment-aio` = `moment.js` + `moment-timezone.js`
+`jeeeyul:moment-aio` = `moment.js` + `moment-timezone.js` for Meteor projects.
 
-with all locales and timezone data.
+* All Locales included.
+* All Timezone datas are included.
 
-Supports momentjs with i18N to meteor
-
-Installation
+## Installation
 
 ```bash
 $ meteor add jeeeyul:moment-aio
